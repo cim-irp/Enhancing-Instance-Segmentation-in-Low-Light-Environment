@@ -14,6 +14,16 @@ detection, instance segmentation plays a vital role by not only detecting object
 - Mainly focused on the low-light environment.
 - Generalized for real-time application using the domain adaptation techniques.
 
+**Methodology**
+
+The type of Domain Adaptation used is semi-supervised. The techniques used are Adversarial training and Image-to-image translation.
+The fine-tuning techniques adapted are:
+- Data Augmentation
+- Pixel Normalization
+- Backbone Tuning
+- Increasing the Learning Rate
+- Reducing the Weight Decay
+
 **Results**
 
 The inference of the model in ideal case is shown below.
